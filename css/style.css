@@ -19,11 +19,14 @@ body {
   margin: 0 auto;
   width: 80%;
   max-width: 1200px;
-  border: 1px solid black;
+ 
 }
 
 main .container {
-  padding-top: 60px;
+  flex-wrap: wrap;
+  padding-top: 90px;
+  background-color: rgb(111, 162, 232);
+  justify-content: flex-start;
 }
 
 header .container {
@@ -51,6 +54,7 @@ a {
  #logo img {
     width: 100%;
     height: 20px;
+    margin-top: 3px
  }
 
 #topbar nav ul li {
@@ -61,4 +65,13 @@ a {
   color: white;
   font-weight: 600;
   font-size: 13px;
+}
+
+/* cards */
+
+.card {
+  background-color: red;
+  margin: 5px;
+  width: calc(100% / 3 - 10px);
+  min-width: 200px;
 }
