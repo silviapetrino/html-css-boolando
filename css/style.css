@@ -40,6 +40,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 #topbar {
@@ -156,6 +157,9 @@ text-decoration: line-through;
   left: 11%;
 }
 
+.card:last-child .value {
+ left: 0;
+}
 
 /* img hover  */
 
@@ -189,7 +193,6 @@ text-decoration: line-through;
 
 footer {
   background-color: #0E0E0E;
-  color: white;
 }
 
 footer .container {
