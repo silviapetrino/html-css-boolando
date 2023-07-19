@@ -15,11 +15,12 @@ body {
 }
 /* /utility flex  */
 
+
+/* containers istructions  */
 .container {
   margin: 0 auto;
   width: 80%;
   max-width: 1200px;
- 
 }
 
 main .container {
@@ -28,11 +29,20 @@ main .container {
   justify-content: flex-start;
 }
 
-header .container {
+header .container,
+footer .container {
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
 }
+
+footer .container {
+  padding: 20px 0;
+}
+
+/* /containers istructions  */
+
+/* text general istructions  */
 
 ul {
   list-style: none;
@@ -42,6 +52,10 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/* text general istructions  */
+
+/* header topbar  */
 
 #topbar {
  position: fixed;
@@ -57,7 +71,8 @@ a {
     margin-top: 3px
  }
 
-#topbar nav ul li {
+#topbar nav ul li,
+footer nav ul li {
   display: inline;
 }
 
@@ -68,7 +83,9 @@ a {
   padding-left: 10px;
 }
 
-/* cards */
+/* header topbar  */
+
+/* cards in main section */
 
 .card {
   background-color: white;
@@ -105,7 +122,7 @@ font-size: .7rem;
 text-decoration: line-through;
 }
 
-/* /cards */
+/* /cards in main section */
 
 
 /* elements over the card image  */
@@ -161,6 +178,8 @@ text-decoration: line-through;
  left: 0;
 }
 
+/* /elements over the card image  */
+
 /* img hover  */
 
 .card:first-child img:hover {
@@ -187,7 +206,7 @@ text-decoration: line-through;
   content: url(../img/6b.webp);
 }
 
-/* img hover  */
+/* /img hover  */
 
 /* footer  */
 
@@ -195,7 +214,9 @@ footer {
   background-color: #0E0E0E;
 }
 
-footer .container {
-
+footer .text li a {
+  font-size: .7rem;
+  padding: 0 2px;
 }
+
 /* /footer  */
