@@ -60,7 +60,7 @@ a {
 #topbar {
  position: fixed;
  width: 100vw;
- height: 60px;
+ padding-bottom: 20px;
  z-index: 999;
  background-color: #FF6900;
  box-shadow: 5px 5px 4px rgb(211, 199, 199);
@@ -130,8 +130,7 @@ text-decoration: line-through;
 /* elements over the card image  */
 
 .card .heart,
-.card .range-discount,
-.card .value {
+.card .marks {
   z-index: 1;
 }
 
@@ -157,23 +156,24 @@ text-decoration: line-through;
 .card .range-discount,
 .card .value {
   display: inline-block;
-  position: absolute;
-  top: 80%;
   color: white;
   font-size: .7rem;
   font-weight: 600;
   padding: 4px 6px;
 }
 
+.card .marks {
+ position: absolute;
+ top: 80%; 
+ left: 0;
+}
+
 .card .range-discount {
   background-color: red;
-  left: 0%;
 }
 
 .card .value {
-  position: absolute;
   background-color: green;
-  left: 11%;
 }
 
 .card:last-child .value {
