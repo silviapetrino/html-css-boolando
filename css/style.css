@@ -24,8 +24,7 @@ body {
 
 main .container {
   flex-wrap: wrap;
-  padding-top: 90px;
-  background-color: rgb(111, 162, 232);
+  padding-top: 100px;
   justify-content: flex-start;
 }
 
@@ -65,6 +64,7 @@ a {
   color: white;
   font-weight: 600;
   font-size: 13px;
+  padding-left: 10px;
 }
 
 /* cards */
@@ -108,7 +108,7 @@ font-size: .7rem;
 /* /cards */
 
 
-/* elements over the image  */
+/* elements over the card image  */
 
 .card .heart,
 .card .range-discount,
