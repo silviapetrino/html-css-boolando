@@ -63,6 +63,7 @@ a {
  height: 60px;
  z-index: 999;
  background-color: #FF6900;
+ box-shadow: 5px 5px 4px rgb(211, 199, 199);
 }
 
  #logo img {
@@ -93,6 +94,7 @@ footer nav ul li {
   width: calc(100% / 3 - 10px);
   min-width: 250px;
   position: relative;
+  cursor: pointer;
 }
 
 .card img {
@@ -165,7 +167,7 @@ text-decoration: line-through;
 
 .card .range-discount {
   background-color: red;
-  left: 0;
+  left: 0%;
 }
 
 .card .value {
@@ -175,7 +177,7 @@ text-decoration: line-through;
 }
 
 .card:last-child .value {
- left: 0;
+ left: 0%;
 }
 
 /* /elements over the card image  */
@@ -212,6 +214,7 @@ text-decoration: line-through;
 
 footer {
   background-color: #0E0E0E;
+  color: white;
 }
 
 footer .text li a {
@@ -219,4 +222,12 @@ footer .text li a {
   padding: 0 2px;
 }
 
+footer .social span {
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+footer .social nav {
+  padding-top: 5px;
+}
 /* /footer  */
