@@ -128,8 +128,12 @@ font-size: .7rem;
   text-align: center;
   line-height: 35px;
   font-size: 25px;
+  cursor: pointer;
 }
 
+.card:hover .heart {
+  color: red;
+}
 
 .card .range-discount,
 .card .value {
@@ -142,7 +146,6 @@ font-size: .7rem;
   padding: 4px 6px;
 }
 
-
 .card .range-discount {
   background-color: red;
   left: 0;
@@ -153,3 +156,32 @@ font-size: .7rem;
   background-color: green;
   left: 11%;
 }
+
+
+/* img hover  */
+
+.card:first-child img:hover {
+  content: url(../img/1b.webp);
+}
+
+.card:nth-child(2) img:hover {
+  content: url(../img/2b.webp);
+}
+
+.card:nth-child(3) img:hover {
+  content: url(../img/3b.webp);
+}
+
+.card:nth-child(4) img:hover {
+  content: url(../img/4b.webp);
+}
+
+.card:nth-child(5) img:hover {
+  content: url(../img/5b.webp);
+}
+
+.card:nth-child(6) img:hover {
+  content: url(../img/6b.webp);
+}
+
+/* img hover  */
